@@ -128,7 +128,7 @@ export default function AppNav({ userName, avatarUrl }: Props) {
             </div>
             {[
               { label: '🏠  My Trips',    href: '/dashboard' },
-              { label: '⛳  New Trip',    href: '/trips/new' },
+              { label: '+ New Trip',     href: '/trips/new' },
               { label: '👤  My Profile',  href: '/profile' },
             ].map(({ label, href }) => (
               <a key={href} href={href} onClick={() => setOpen(false)} style={{
